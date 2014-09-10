@@ -1,4 +1,4 @@
-jfinal-slf4j
+jfinal-tablebind
 ============
 
-jfinal  slf4j  log api
+jfinal  tablebind plugin
