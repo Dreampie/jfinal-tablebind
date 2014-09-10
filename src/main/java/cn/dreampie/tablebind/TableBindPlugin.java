@@ -1,5 +1,6 @@
 package cn.dreampie.tablebind;
 
+import cn.dreampie.ClassSearchKit;
 import com.google.common.collect.Lists;
 import com.jfinal.kit.StrKit;
 import com.jfinal.log.Logger;
@@ -118,7 +119,7 @@ public class TableBindPlugin extends ActiveRecordPlugin {
   public boolean start() {
     if (includeClasses.size() <= 0) {
 //      includeClasses = ClassSearcherExt.of(Model.class).includepaths(includeClassPaths).injars(includeJars).includeAllJarsInLib(includeAllJarsInLib).search();
-      includeClasses = ClassSearcherExt.of(Model.class).includepaths(includeClassPaths).search();
+      includeClasses = ClassSearchKit.of(Model.class).includepaths(includeClassPaths).search();
     }
     TableBind tb = null;
     for (Class modelClass : includeClasses) {
