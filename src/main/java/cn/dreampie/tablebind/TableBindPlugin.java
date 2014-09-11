@@ -126,8 +126,8 @@ public class TableBindPlugin extends ActiveRecordPlugin {
       boolean isexclude = false;
       if (excludeClassPaths.size() > 0) {
         for (String excludepath : excludeClassPaths) {
-          log.error(modelClass.getName());
           if (modelClass.getName().startsWith(excludepath)) {
+            log.debug("exclude model:" + modelClass.getName());
             isexclude = true;
             break;
           }
