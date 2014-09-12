@@ -8,6 +8,7 @@
   <artifactId>jfinal-tablebind</artifactId>
   <version>0.1</version>
   <packaging>jar</packaging>
+  <name>jfinal-tablebind</name>
   <description>jfinal tablebind plugins</description>
   <url>https://github.com/Dreampie/jfinal-tablebind</url>
 
