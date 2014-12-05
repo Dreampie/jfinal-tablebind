@@ -7,9 +7,9 @@ maven 引用  ${jfinal-tablebind.version}替换为相应的版本如:0.1
 
 ```xml
 <dependency>
-<groupId>cn.dreampie</groupId>
-<artifactId>jfinal-tablebind</artifactId>
-<version>${jfinal-tablebind.version}</version>
+  <groupId>cn.dreampie</groupId>
+  <artifactId>jfinal-tablebind</artifactId>
+  <version>${jfinal-tablebind.version}</version>
 </dependency>
 ```
 
